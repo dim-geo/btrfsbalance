@@ -8,3 +8,6 @@ https://support.cumulusnetworks.com/hc/en-us/articles/360037394933-When-to-Rebal
 What chunks to balance is based on this idea:
 
 https://github.com/knorrie/python-btrfs/blob/master/bin/btrfs-balance-least-used
+
+This script could be used to daily balance a btrfs filesystem.
+Minimal wear/overhead would be caused, because most of the times, no balance will be needed.
